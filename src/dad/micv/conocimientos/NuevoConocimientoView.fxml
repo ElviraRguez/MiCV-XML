@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane fx:id="view" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane hgap="5.0" vgap="5.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" />
+            <ColumnConstraints />
+          <ColumnConstraints hgrow="ALWAYS" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints valignment="BASELINE" />
+          <RowConstraints valignment="BASELINE" />
+        </rowConstraints>
+         <children>
+            <Label text="Denominación" />
+            <TextField fx:id="denominacionText" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+            <Label text="Nivel" GridPane.rowIndex="1" />
+            <ComboBox fx:id="nivelCombo" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#onLimpiarButtonAction" text="X" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+      </GridPane>
+   </center>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+   <bottom>
+      <FlowPane alignment="CENTER_RIGHT" hgap="5.0" vgap="5.0">
+         <children>
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#onCrearButtonAction" text="Crear" />
+            <Button cancelButton="true" mnemonicParsing="false" onAction="#onCancelarButtonAction" text="Cancelar" />
+         </children>
+      </FlowPane>
+   </bottom>
+</BorderPane>

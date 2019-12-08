@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cv>
+    <contacto>
+        <emails direccion="cnorris@gmail.com"/>
+        <telefonos numero="922631444" tipo="DOMICILIO"/>
+        <telefonos numero="666112222" tipo="MOVIL"/>
+        <webs url="http://www.cnorris.com"/>
+    </contacto>
+    <experiencias desde="2014-04-25" hasta="2016-08-13">
+        <denominacion>Aparcacoches</denominacion>
+        <empleador>Casino de Santa Cruz</empleador>
+    </experiencias>
+    <formacion desde="2007-02-08" hasta="2010-11-30">
+        <denominacion>Técnico Superior en Aparcar Coches</denominacion>
+        <organizador>CIFP Trolebus</organizador>
+    </formacion>
+    <habilidades denominacion="Carnet de conducir B"/>
+    <habilidades denominacion="JavaFX" nivel="AVANZADO"/>
+    <habilidades xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="idioma" certificacion="B2" denominacion="Inglés" nivel="AVANZADO"/>
+    <personal identificacion="12345678Z">
+        <apellidos>Norris</apellidos>
+        <codigoPostal>38204</codigoPostal>
+        <direccion>Calle no se qué, 12</direccion>
+        <fechaNacimiento>1942-10-06</fechaNacimiento>
+        <localidad>La Laguna</localidad>
+        <nacionalidades denominacion="Estadounidense"/>
+        <nacionalidades denominacion="Japonés"/>
+        <nombre>Chuck</nombre>
+        <pais>España</pais>
+    </personal>
+</cv>
